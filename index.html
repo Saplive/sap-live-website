@@ -1,87 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SAP LIVE* - Empowering Futures with SAP Education</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAP LIVE*</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #e6f0ff;
-      color: #003366;
+      padding: 0;
+      background: #f4f7fa;
     }
     header {
-      background-color: #004aad;
+      background-color: #003366;
+      color: white;
       padding: 20px;
       text-align: center;
-      color: white;
-      font-size: 2rem;
-      font-weight: bold;
-      letter-spacing: 2px;
     }
     nav {
-      display: flex;
-      justify-content: center;
-      background-color: #003366;
+      background-color: #00509e;
+      overflow: hidden;
     }
     nav a {
-      color: white;
-      padding: 15px 25px;
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 20px;
       text-decoration: none;
-      font-weight: 600;
-      border-bottom: 3px solid transparent;
-      transition: border-bottom 0.3s;
     }
     nav a:hover {
-      border-bottom: 3px solid #66a3ff;
-    }
-    main {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
+      background-color: #003f7f;
     }
     section {
-      margin-bottom: 50px;
+      padding: 20px;
     }
     h2 {
-      border-bottom: 3px solid #004aad;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
+      color: #003366;
     }
-    p {
-      font-size: 1.1rem;
-      line-height: 1.6;
+    ul {
+      padding-left: 20px;
     }
-    .services-list {
-      list-style-type: disc;
-      margin-left: 20px;
+    .image-container {
+      text-align: center;
+      padding: 20px;
+    }
+    .image-container img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     footer {
       background-color: #003366;
       color: white;
       text-align: center;
-      padding: 15px 10px;
-      font-size: 1rem;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-    .image-container {
-      text-align: center;
-      margin: 30px 0;
-    }
-    .image-container img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      padding: 10px;
     }
   </style>
 </head>
 <body>
-
-  <header>SAP LIVE*</header>
+  <header>
+    <h1>SAP LIVE*</h1>
+    <p>Empowering Futures with SAP Education</p>
+  </header>
 
   <nav>
     <a href="#home">Home</a>
@@ -90,37 +73,56 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <main>
-    <section id="home">
-      <h2>Welcome to SAP LIVE*</h2>
-      <div class="image-container">
-        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Students sitting on chairs and working on laptops" />
-      </div>
-      <p>Your trusted online training partner for SAP Modules and Java. Empowering your future with quality education and real job assistance.</p>
-    </section>
+  <section id="home" class="image-container">
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Student studying using a laptop - SAP LIVE site" />
+  </section>
 
-    <section id="about">
-      <h2>About Us</h2>
-      <p>We are an online training partner specializing in SAP Modules and Java. Our mission is to provide comprehensive and accessible training to students worldwide, ensuring practical skills and career readiness.</p>
-    </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      We are an online training partner specializing in SAP Modules and Java. Our mission is to provide comprehensive and accessible training to students worldwide, ensuring practical skills and career readiness.
+    </p>
+    <p>
+      Our trainers are well-experienced professionals with over <strong>9+ years</strong> of industry experience. All trainers are certified in <strong>SAP ECC</strong> and <strong>SAP S/4 HANA</strong>.
+    </p>
+    <p>
+      We have been offering online training for the last <strong>5 years</strong>, having successfully trained <strong>32 online batches</strong> and counting.
+    </p>
+  </section>
 
-    <section id="services">
-      <h2>Our Services</h2>
-      <ul class="services-list">
-        <li>SAP All Module Training</li>
-        <li>Java Training</li>
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>SAP All Modules Training:</li>
+      <ul>
+        <li>SAP FICO</li>
+        <li>SAP MM</li>
+        <li>SAP HCM</li>
+        <li>SAP SD</li>
+        <li>SAP ABAP</li>
+        <li>SAP BASIS</li>
       </ul>
-    </section>
+      <li>Java Training:</li>
+      <ul>
+        <li>Java Front-End Developer</li>
+        <li>Java Testing</li>
+      </ul>
+      <li>AWS Training:</li>
+      <ul>
+        <li>AWS DevOps</li>
+        <li>AWS Admin</li>
+      </ul>
+    </ul>
+  </section>
 
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Phone: <a href="tel:+918096877770" style="color:#004aad; font-weight:bold;">8096877770</a></p>
-    </section>
-  </main>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> <a href="mailto:Elearning@saplive.onmicrosoft.com">Elearning@saplive.onmicrosoft.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+918096877770">8096877770</a></p>
+  </section>
 
   <footer>
-    © 2025 SAP LIVE* - Empowering Futures with SAP Education
+    <p>&copy; 2025 SAP LIVE*. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
