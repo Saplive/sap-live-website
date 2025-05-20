@@ -4,123 +4,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SAP LIVE*</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f7fa;
-    }
-    header {
-      background-color: #003366;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background-color: #00509e;
-      overflow: hidden;
-    }
-    nav a {
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      background-color: #003f7f;
-    }
-    section {
-      padding: 20px;
-    }
-    h2 {
-      color: #003366;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .image-container {
-      text-align: center;
-      padding: 20px;
-    }
-    .image-container img {
-      max-width: 90%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    footer {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
-  </style>
+  <title>Home - SAP LIVE*</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
+  <div class="announcement">📢 New SAP FICO batch starts May 26th</div>
   <header>
     <h1>SAP LIVE*</h1>
     <p>Empowering Futures with SAP Education</p>
   </header>
-
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
   </nav>
-
-  <section id="home" class="image-container">
-    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Student studying using a laptop - SAP LIVE site" />
+  <section class="home-section">
+    <h2>Welcome to SAP LIVE*</h2>
+    <p>We offer expert-led training in SAP modules and Java technologies to empower your career.</p>
+    <div class="slider">
+      <img src="images/classroom1.jpg" alt="Students on laptops" class="slide active">
+      <img src="images/classroom2.jpg" alt="Training session" class="slide">
+      <img src="images/classroom3.jpg" alt="Interactive training" class="slide">
+    </div>
   </section>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>
-      We are an online training partner specializing in SAP Modules and Java. Our mission is to provide comprehensive and accessible training to students worldwide, ensuring practical skills and career readiness.
-    </p>
-    <p>
-      Our trainers are well-experienced professionals with over <strong>9+ years</strong> of industry experience. All trainers are certified in <strong>SAP ECC</strong> and <strong>SAP S/4 HANA</strong>.
-    </p>
-    <p>
-      We have been offering online training for the last <strong>5 years</strong>, having successfully trained <strong>32 online batches</strong> and counting.
-    </p>
-  </section>
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>SAP All Modules Training:</li>
-      <ul>
-        <li>SAP FICO</li>
-        <li>SAP MM</li>
-        <li>SAP HCM</li>
-        <li>SAP SD</li>
-        <li>SAP ABAP</li>
-        <li>SAP BASIS</li>
-      </ul>
-      <li>Java Training:</li>
-      <ul>
-        <li>Java Front-End Developer</li>
-        <li>Java Testing</li>
-      </ul>
-      <li>AWS Training:</li>
-      <ul>
-        <li>AWS DevOps</li>
-        <li>AWS Admin</li>
-      </ul>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Email:</strong> <a href="mailto:Elearning@saplive.onmicrosoft.com">Elearning@saplive.onmicrosoft.com</a></p>
-    <p><strong>Phone:</strong> <a href="tel:+918096877770">8096877770</a></p>
-  </section>
-
+  <a href="https://wa.me/918096877770" class="whatsapp" target="_blank">💬 Chat on WhatsApp</a>
   <footer>
     <p>&copy; 2025 SAP LIVE*. All rights reserved.</p>
   </footer>
