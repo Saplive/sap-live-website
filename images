@@ -1,3 +1,6 @@
-<img src="images/classroom1.jpg" alt="Students working on laptops">
-<img src="images/classroom2.jpg" alt="Classroom environment">
-<img src="images/classroom3.jpg" alt="Interactive SAP session">
+const images = [
+  "images/classroom1.jpg",
+  "images/classroom2.jpg",
+  "images/classroom3.jpg"
+];
+
