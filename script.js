@@ -1,8 +1,9 @@
 
 let current = 0;
-const slides = document.querySelectorAll('.slide');
+const images = ["images/classroom1.jpg", "images/classroom2.jpg", "images/classroom3.jpg"];
+const imgEl = document.getElementById('slider-image');
+
 setInterval(() => {
-  slides[current].classList.remove('active');
-  current = (current + 1) % slides.length;
-  slides[current].classList.add('active');
+  current = (current + 1) % images.length;
+  imgEl.src = images[current];
 }, 3000);
