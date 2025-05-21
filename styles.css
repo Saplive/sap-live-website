@@ -1,0 +1,14 @@
+
+body { font-family: Arial; margin: 0; background: #f9f9f9; }
+header, footer { background: #003366; color: white; text-align: center; padding: 1rem; }
+nav { background: #00509e; text-align: center; }
+nav a { color: white; padding: 10px; display: inline-block; text-decoration: none; }
+nav a:hover { background: #003f7f; }
+section { padding: 1rem; }
+form input, form textarea { width: 100%; margin: 0.5rem 0; padding: 0.5rem; }
+button { padding: 0.5rem 1rem; background: #003366; color: white; border: none; }
+.announcement { background: yellow; color: black; padding: 0.5rem; text-align: center; font-weight: bold; }
+.whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; padding: 10px; border-radius: 50px; text-decoration: none; font-size: 20px; }
+.slider { position: relative; max-width: 600px; margin: auto; }
+.slide { display: none; width: 100%; }
+.slide.active { display: block; }
