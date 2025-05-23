@@ -2,5 +2,6 @@
       <img src="images/classroom1.jpg" alt="Students on laptops" class="slide active">
       <img src="images/classroom2.jpg" alt="Training session" class="slide">
       <img src="images/classroom3.jpg" alt="Interactive training" class="slide">
+      <img src="https://via.placeholder.com/100" class="director-photo" alt="Test Photo">
     </div>
-images/jyotika-bharti.png
+
