@@ -12,3 +12,40 @@ button { padding: 0.5rem 1rem; background: #003366; color: white; border: none; 
 .slider { position: relative; max-width: 600px; margin: auto; }
 .slide { display: none; width: 100%; }
 .slide.active { display: block; }
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header-left p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.director-info {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  max-width: 150px;
+}
+
+.director-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  border: 2px solid #ccc;
+}
+
