@@ -1,7 +1,7 @@
  <div class="slider">
       <img src="images/jyotika.jpg" alt="Jyotika Bharti" class="director-photo">
       <img src="images/Laptop.jpg">
-<img src="images/<img src="classroom1.jpg" alt="Classroom 1">
+      <img src="images/<img src="classroom1.jpg" alt="Classroom 1">
       <img src="images/classroom2.jpg" alt="Training session" class="slide">
       <img src="images/classroom3.jpg" alt="Interactive training" class="slide">
     </div>
